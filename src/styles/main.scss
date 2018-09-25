@@ -1,0 +1,19 @@
+$body-background: #ecf0f1; // #eee
+
+.app-container {
+    background-color: $body-background;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    .route-holder {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        overflow: auto;
+    }
+}
